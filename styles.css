@@ -1,0 +1,83 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #939583;
+	color: black;
+}
+h1{
+	font-size: 40px;
+	font-family: impact;
+}
+h2{
+	font-family: impact;
+	font-weight: lighter;
+}
+p{
+	font-size: 20px;
+}
+.navbartop{
+	background-color: black;
+	overflow: hidden;
+	font-family: impact;
+
+}
+
+.navbartop a {
+	float: left;
+	text-align: center;
+	color: #939583;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+.navbartop a:hover{
+	background-color: #505346;
+	color: black;
+}
+
+.footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #43453b;
+}
+
+.footer a:visited{
+	color: black;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+}
+.imgresponsive{
+	max-width: 300px;
+	max-height: 400px;
+	width: auto;
+	height: auto;
+	color: #939583;
+}
+li{
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+}
+.references{
+	text-decoration: none;
+	
+}
+.references a:visited{
+	color: black;
+}
+
+.references a:hover{
+	text-decoration: underline;
+}
+form{
+	font-size: 25px;
+	font-family: impact;
+}
